@@ -1,0 +1,19 @@
+Desenvolva uma função chamada gerarNumeroAleatorio(). Está função não recebe parâmetros.
+
+A função deve retornar um número aleatório quando chamada.
+
+Para gerar um valor aleatório utilize o Math.random(). O valor gerado deverá ser um inteiro positivo até 20.
+
+Atenção, lembre-se que o Math.random(), gera números flutuantes, o que vai dificultar os teste, caso não trate.
+
+Use algum método para fazer o arredondamento para um inteiro mais próximo.
+
+Desenvolva uma função chamada verificarPalpite(). Está função irá receber um número aleatório e o valor dado como palpite.
+
+Na função verificarPalpite(), você deverá criar uma variável tentativa iniciando em 1.
+
+Defina um laço while que deve verificar se o numeroAleatorio, é igual ao valor do palpite. Para cada iteração no escopo do laço a variável tentativa deverá ser incrementada em +1.
+
+Enquanto o palpite estiver incorreto, alerte: "Tente novamente".
+
+Caso o palpite esteja certo, alerte: "Você acertou na tentativa x."
