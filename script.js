@@ -1,15 +1,15 @@
 // Desafio - Contando Casas
 
 // No enunciado é pedido para essa função não receber paramêtros, mas não consegui prosseguir sem os mesmos.
-function gerarNumeroAleatorio(min ,max) {
-    min = Math.round(min)
-    max = Math.round(max)
-   return Math.round(Math.random() * (max) + min)
+function gerarNumeroAleatorio() {
+    // min = Math.round(min)
+    // max = Math.round(max)
+   return Math.round(Math.random() * 20)
 }
 
 
 function verificarPalpite() {
-    numeroAleatorio = gerarNumeroAleatorio(1, 20)
+    numeroAleatorio = gerarNumeroAleatorio()
     let tentativa = 1
     let palpite = parseInt(prompt("Digite um palpite de 1 a 20"))
     console.log(numeroAleatorio)
